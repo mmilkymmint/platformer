@@ -782,25 +782,16 @@
                     "id": "d2095163-a010-47b8-a746-08082aa5e29e",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 },
                 {
                     "name": "run",
-                    "type": "Value",
-                    "id": "1602f3bc-4506-4e2d-8145-a8a24ae637cf",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "pick up",
                     "type": "Button",
-                    "id": "022abe38-31a0-4152-960b-c83e3657f8c9",
+                    "id": "1602f3bc-4506-4e2d-8145-a8a24ae637cf",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 }
             ],
@@ -808,7 +799,7 @@
                 {
                     "name": "",
                     "id": "08f2e490-8c8a-4ce3-9471-dd9372c72f35",
-                    "path": "",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
@@ -819,22 +810,11 @@
                 {
                     "name": "",
                     "id": "73e5c330-419a-426a-a296-7990989156f5",
-                    "path": "",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "run",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e1f35fd4-07b9-4229-84a2-5c6394974dbe",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "pick up",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
